@@ -26,4 +26,4 @@ Run the command ```rake console``` to begin. All tasks will be done from the con
 
 6. Close the console and open Movie.rb. Create a class method that would return all of the movies that have "Mystery" as the genre. You should accomplish this using ActiveRecord Query method(s). (hint: Since we are generating random data in the seeds file, you may find that you have no movies with a genre of Mysteries)
 
-7. Create a custom route in the application controller '/last-movie', that would return the last movie in the database and return it as a json.
+7. Create a custom route in the application controller '/last-movie', that would return the last movie in the database and return it as a json. To start the server run the command ```shotgun```. The server will start on port 9393. Test with Postman.
