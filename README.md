@@ -12,7 +12,7 @@ rake db:create && rake db:migrate && rake db:seed
 
 ## Tasks
 
-Run the command ```bash rake console``` to begin. All tasks will be done from the console. Unless otherwise noted.
+Run the command ```rake console``` to begin. All tasks will be done from the console. Unless otherwise noted.
 
 1. Query the db for all of the movies. Set the result to a variable called movies. What does the query return (hint: it's not an array, though it acts much like one)
 
