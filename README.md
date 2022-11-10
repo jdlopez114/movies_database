@@ -12,12 +12,12 @@ rake db:create && rake db:migrate && rake db:seed
 
 ## Tasks
 
-Run the command `bash rake console` to begin. All tasks will be done from the console. Unless otherwise noted.
+Run the command ```bash rake console``` to begin. All tasks will be done from the console. Unless otherwise noted.
 
     1. Query the db for all of the movies. Set the result to a variable called movies.
         a. What does the query return (hint: it's not an array, though it acts much like one)
 
-    1. Find the movie with an id of 5. Save the result to a variable called movie5.
+    2. Find the movie with an id of 5. Save the result to a variable called movie5.
 
     3. How can you see all of the characters that belong to movie5?
 
