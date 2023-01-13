@@ -12,6 +12,7 @@ gem 'pry'
 gem 'bcrypt'
 gem 'tux'
 gem 'faker'
+gem 'database_cleaner-active_record'
 
 group :test do
   gem 'rspec'

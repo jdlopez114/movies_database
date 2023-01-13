@@ -1,5 +1,4 @@
-Movie.destroy_all
-Character.destroy_all
+DatabaseCleaner.clean_with(:truncation, only: %w[movies characters])
 
 25.times do 
     movie = Movie.create(
